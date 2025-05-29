@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don't Pull Out!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-info-header">
+        <div id="tries-display">Tries: 5</div>
+        <div id="level-display">Level: 1</div>
+        <div id="score-display">Score: 0</div>
+    </div>
+
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="start-screen">
+            <h1>Don't Pull Out!</h1>
+            <p>You have 10 levels to conquer and 5 tries total.</p>
+            <p>Click or Press Space to Start</p>
+        </div>
+
+        <div id="level-complete-screen" style="display:none;">
+            <h1 id="level-complete-title">Level X Complete!</h1>
+            <p id="gender-reveal"></p>
+            <p>Collect your trophy!</p>
+            <button id="next-level-button">Start Next Level</button>
+        </div>
+
+        <div id="final-game-over-screen" style="display:none;">
+            <h1>You pulled out too soon!</h1>
+            <p id="final-score-gameover"></p>
+            <p id="trophies-collected-gameover"></p>
+            <button id="restart-game-button">Try Again From Start</button>
+        </div>
+
+        <div id="all-levels-complete-screen" style="display:none;">
+            <h1>CONGRATULATIONS!</h1>
+            <p>You've conquered all 10 levels!</p>
+            <p id="final-score-win"></p>
+            <p id="trophies-collected-win"></p>
+            <button id="play-again-all-levels-button">Play Again From Start</button>
+        </div>
+    </div>
+
+    <p id="footer-message">Share your pull out scores and trophy's at www.weakpulloutgang.com</p>
+
+    <script src="script.js"></script>
+</body>
+</html>

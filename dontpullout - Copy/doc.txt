@@ -1,0 +1,7 @@
+dont-pull-out-game/
+├── index.html
+├── style.css
+├── script.js
+└── img/
+    └── sperm_char.png
+    └── egg.png
